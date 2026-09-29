@@ -1,0 +1,4281 @@
+{
+  "issue": {
+    "date": "2026-09-29",
+    "number": 2,
+    "title": "what the swarm did",
+    "windowStart": "2026-09-29T00:00:00.000Z",
+    "windowEnd": "2026-09-29T14:21:07.000Z",
+    "generatedAt": "2026-09-29T14:21:07.000Z",
+    "asOf": "14:21 UTC",
+    "previousIssue": "2026-09-28",
+    "deltas": {
+      "connectedDaemons": 20,
+      "activeEnrollments": 16,
+      "workingNow": -5,
+      "acceptedLastDay": 45575
+    },
+    "schema": "data/schema.md"
+  },
+  "network": {
+    "connectedDaemons": {
+      "value": 510,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "activeEnrollments": {
+      "value": 519,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "workingNow": {
+      "value": 5,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "acceptedLastDay": {
+      "value": 82920,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "pendingFeedback": {
+      "value": 3031,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "deployBreaker": {
+      "value": null,
+      "source": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z"
+    },
+    "payments": {
+      "quoted": {
+        "value": 2,
+        "source": "https://api.imd.fun/health",
+        "readAt": "2026-09-29T14:21:07.275333Z"
+      },
+      "paid": {
+        "value": 372,
+        "source": "https://api.imd.fun/health",
+        "readAt": "2026-09-29T14:21:07.275333Z"
+      },
+      "expired": {
+        "value": 598,
+        "source": "https://api.imd.fun/health",
+        "readAt": "2026-09-29T14:21:07.275333Z"
+      },
+      "failed": {
+        "value": 8,
+        "source": "https://api.imd.fun/health",
+        "readAt": "2026-09-29T14:21:07.275333Z"
+      }
+    },
+    "explorerActivity": {
+      "working": {
+        "value": 5,
+        "source": "https://explorer.imd.fun/api/activity",
+        "readAt": "2026-09-29T14:21:07.291651Z"
+      },
+      "jobs": {
+        "value": 3,
+        "source": "https://explorer.imd.fun/api/activity",
+        "readAt": "2026-09-29T14:21:07.291651Z"
+      },
+      "oracle": {
+        "value": 0,
+        "source": "https://explorer.imd.fun/api/activity",
+        "readAt": "2026-09-29T14:21:07.291651Z"
+      },
+      "at": "2026-09-29T14:21:04.098000Z"
+    }
+  },
+  "launches": {
+    "highestNumber": {
+      "value": 445,
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    "byStatus": {
+      "live": {
+        "value": 134,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z",
+        "note": "Over all 166 returned launches."
+      },
+      "parked": {
+        "value": 22,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z",
+        "note": "Over all 166 returned launches."
+      },
+      "abandoned": {
+        "value": 10,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z",
+        "note": "Over all 166 returned launches."
+      }
+    },
+    "last24h": [
+      {
+        "id": "a36cb67d-208f-4149-a31a-4a55cac4833c",
+        "number": 445,
+        "name": "IMD Card Pay",
+        "kind": "evm_project",
+        "status": "live",
+        "policyVersion": null,
+        "repo": "https://github.com/identity-md-launches/launch-445-workflow-contract-stage-context",
+        "pair": "IMD / ETH",
+        "chainId": 11155111,
+        "createdAt": "2026-09-29T03:31:33.376Z",
+        "parkedReason": null,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "ImdCardPayment",
+            "address": "0x7ffdd2022de16ff12487904e60e9e8f0c4892721",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x10a7117e2f6d89afe15fa8adbc965d7e1c78613f",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0xd78a0bc1eaf45eb7b44332c314318af2780f2f87",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          }
+        ],
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z",
+        "supply": "1,000,000,000 tokens",
+        "openingCap": null
+      },
+      {
+        "id": "964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+        "number": 444,
+        "name": "Pacts",
+        "kind": "evm_project",
+        "status": "live",
+        "policyVersion": null,
+        "repo": "https://github.com/identity-md-launches/launch-444-workflow-contract-stage-context",
+        "pair": "PACT / ETH",
+        "chainId": 11155111,
+        "createdAt": "2026-09-29T05:08:42.663Z",
+        "parkedReason": null,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "Guilds",
+            "address": "0x8cf40aadb31bad7b441f018d74c61191b96a2e42",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x7f88ad727adeb8fc70fd198f2d2319349846818c",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0x174ce0bdbd6af7e713225ced17c873203ba829a1",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "other",
+            "name": "Realm",
+            "address": "0x206bbcb9b91793decd1819e366334ab6dbbdc990",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          }
+        ],
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z",
+        "supply": "1,000,000,000 tokens",
+        "openingCap": null
+      },
+      {
+        "id": "cf273456-28ee-4198-a2fa-a89fa08a5225",
+        "number": 440,
+        "name": "SeatLease",
+        "kind": "evm_project",
+        "status": "parked",
+        "policyVersion": 5,
+        "repo": "https://github.com/identity-md-launches/launch-440-build-seatlease-v1-one",
+        "pair": null,
+        "chainId": 11155111,
+        "createdAt": "2026-09-29T02:24:20.600Z",
+        "parkedReason": "findings: 1 blocking finding(s) never resolved — audit_judge: claim() lets the seat owner make the holder grant a lasting Permit2 allowance, draining unbooked rewards from the operator and from later depositors of the same token id",
+        "artifacts": [],
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      }
+    ],
+    "parkedReasons": [
+      {
+        "reason": "findings: N blocking finding(s) never resolved",
+        "count": 6,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "protected_invariants: invariants-7848f0989d32: [FAIL: project constructor failed] setUp() (gas: 0); [FAIL: project constructor failed] setUp() (gas: 0)",
+        "count": 2,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "protected_invariants: invariants-7848f0989d32: [FAIL: EvmError: Revert] setUp() (gas: 0); [FAIL: EvmError: Revert] setUp() (gas: 0); [FAIL: EvmError: Revert] setUp() (gas: 0); [FAIL: EvmError: Revert] setUp() (gas: 0)",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: missing ABI for ObservationBufferToken",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: missing ABI for LaunchToken",
+        "count": 2,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: missing ABI for Token",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: missing ABI for RateLimiterToken",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: missing ABI for CommitRevealVoteToken",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "manifest: token: Invalid input: expected object, received null",
+        "count": 2,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "simulation failed: The contract function \"launch\" reverted with the following signature:\n0x90bfb865\n\nUnable to decode signature \"0x90bfb865\" as it was not found on the provided ABI.\nMake sure you are using the correct ABI and that the error exists on it.\nYou can look up the decoded signature here: https://4byte.sourcify.dev/?q=0x90bfb865.\n \nContract Call:\n  address:   0xa6b1728c29eb4300e306b63f5c7ec2edfc2ef7c5\n  function:  launch((uint64 launchNumber, bytes32 kind, bytes tokenCreationCode, bytes hookCreationCode, bytes32 hookSalt, uint160 hookFlags, uint256 totalSupply, uint16 contributorPoolBps, uint16 liquidityBps, uint16 treasuryBps, address treasury, bytes32 merkleRoot, uint64 contributorLockSeconds, uint64 sweepDelaySeconds, address pairedCurrency, uint24 fee, int24 tickSpacing, uint160 sqrtPriceX96, int24 tickLower, int24 tickUpper, uint128 liquidity, (bytes32 kind, uint64 launchNumber, uint64 recordedAt, bytes32 sourceCommit, bytes32 manifestHash, bytes32 attestationHash, bytes3",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "attestation: failed 5 times; last: constructor argument \"$pad\" is neither an address nor an integer, and a launch manifest can express nothing else",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "simulation failed: The contract function \"launch\" reverted with the following signature:\n0xf076f48f\n\nUnable to decode signature \"0xf076f48f\" as it was not found on the provided ABI.\nMake sure you are using the correct ABI and that the error exists on it.\nYou can look up the decoded signature here: https://4byte.sourcify.dev/?q=0xf076f48f.\n \nContract Call:\n  address:   0xa6b1728c29eb4300e306b63f5c7ec2edfc2ef7c5\n  function:  launch((uint64 launchNumber, bytes32 kind, bytes tokenCreationCode, bytes hookCreationCode, bytes32 hookSalt, uint160 hookFlags, uint256 totalSupply, uint16 contributorPoolBps, uint16 liquidityBps, uint16 treasuryBps, address treasury, bytes32 merkleRoot, uint64 contributorLockSeconds, uint64 sweepDelaySeconds, address pairedCurrency, uint24 fee, int24 tickSpacing, uint160 sqrtPriceX96, int24 tickLower, int24 tickUpper, uint128 liquidity, (bytes32 kind, uint64 launchNumber, uint64 recordedAt, bytes32 sourceCommit, bytes32 manifestHash, bytes32 attestationHash, bytes3",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "bytecode: bytecode_hash is \"ipfs\", so the build is not reproducible",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      },
+      {
+        "reason": "manifest: token: Invalid input: expected object, received undefined; pool.initialPrice: Invalid input: expected string, received undefined; notes: Too big: expected string to have <=4000 characters",
+        "count": 1,
+        "source": "https://api.imd.fun/launches?limit=500",
+        "readAt": "2026-09-29T14:21:07.276281Z"
+      }
+    ]
+  },
+  "policies": [
+    {
+      "version": 6,
+      "kind": "custom_token",
+      "note": "custom token launches: 2% to launch contributors, 8% equally among wallets with accepted work in the preceding 24 hours; the requester sets the pool share (at least 10% of supply), the opening cap (1 to 1000 ETH) and the remainder",
+      "createdAt": "2026-09-28T03:27:54.451Z",
+      "chainId": 11155111,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    },
+    {
+      "version": 5,
+      "kind": "evm_project",
+      "note": "2% launch contributors, 8% equal per wallet with accepted work in the preceding 12 hours; 20 ETH opening FDV, native ETH pairs; existing supply, LP, treasury and lock terms retained",
+      "createdAt": "2026-09-22T03:19:33.257Z",
+      "chainId": 11155111,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    },
+    {
+      "version": 4,
+      "kind": "univ4_hook",
+      "note": "2% launch contributors, 8% equal per wallet with accepted work in the preceding 12 hours; 20 ETH opening FDV, native ETH pairs; existing supply, LP, treasury and lock terms retained",
+      "createdAt": "2026-09-22T03:19:33.252Z",
+      "chainId": null,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    },
+    {
+      "version": 3,
+      "kind": "evm_project",
+      "note": "Sepolia project launches: same reward and liquidity terms as hook policy v2, explicit project owner and chain",
+      "createdAt": "2026-09-10T21:50:11.367Z",
+      "chainId": 11155111,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    },
+    {
+      "version": 2,
+      "kind": "univ4_hook",
+      "note": "sepolia end to end: USDC allowed, owners held by the operator wallet, one hour contributor lock",
+      "createdAt": "2026-08-26T22:17:07.363Z",
+      "chainId": null,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    },
+    {
+      "version": 1,
+      "kind": "univ4_hook",
+      "note": "placeholder — ownership, supply split and lock are all undecided",
+      "createdAt": "2026-08-21T04:53:43.092Z",
+      "chainId": null,
+      "source": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z"
+    }
+  ],
+  "jobs": {
+    "last24hTotal": {
+      "value": 231,
+      "source": "https://api.imd.fun/jobs?limit=500",
+      "readAt": "2026-09-29T14:21:07.277616Z",
+      "note": "Created during the issue window; newest 500 records extend before midnight."
+    },
+    "last24hByKind": {
+      "skill:build-website": {
+        "value": 5,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "skill:oracle-assess": {
+        "value": 216,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "shape:chain": {
+        "value": 5,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "skill:create-image": {
+        "value": 1,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "skill:build-contract-project": {
+        "value": 1,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "skill:create-video": {
+        "value": 2,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      },
+      "skill:site-content-check": {
+        "value": 1,
+        "source": "https://api.imd.fun/jobs?limit=500",
+        "readAt": "2026-09-29T14:21:07.277616Z"
+      }
+    },
+    "createdBySchedule": {
+      "value": 24,
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z",
+      "note": "All-time purchased runs consumed; not a count for this issue window."
+    }
+  },
+  "oracle": {
+    "last24hTotal": {
+      "value": 216,
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    "last24hByStatus": {
+      "attested": {
+        "value": 213,
+        "source": "https://api.imd.fun/oracle/requests?limit=500",
+        "readAt": "2026-09-29T14:21:07.278842Z"
+      },
+      "disagreed": {
+        "value": 3,
+        "source": "https://api.imd.fun/oracle/requests?limit=500",
+        "readAt": "2026-09-29T14:21:07.278842Z"
+      }
+    },
+    "attestedLast24h": {
+      "value": 214,
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    "galleryShown": {
+      "value": 10,
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    "galleryRest": {
+      "value": 204,
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    "exampleQuestions": [
+      "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?",
+      "List the top 10 holder wallet addresses of the identity MD nft collection on last block",
+      "What is the result of last night's Turkey-Italy match?"
+    ],
+    "models": [],
+    "modelsNote": "not exposed",
+    "attester": "0x5598aa9146215bc13eb26f2c692ad1461fd32982"
+  },
+  "schedules": {
+    "active": {
+      "value": 3,
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    "total": {
+      "value": 5,
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    "items": [
+      {
+        "id": "89eef405-0d74-44dd-8012-0de841e28b09",
+        "label": "$HIVE moonmetar",
+        "action": "job.open",
+        "status": "active",
+        "statusReason": null,
+        "runsRemaining": 3,
+        "runsBought": 3,
+        "nextRunAt": "2026-09-29T14:21:18.555Z",
+        "lastRunAt": null,
+        "createdAt": "2026-09-29T08:21:18.555Z",
+        "cadence": "every PT6H",
+        "question": "Analyze hodlers of token $HIVE 0xCdaE63D95D6dd4f89f6e508c77bD4388b4e5C8Ab and current trading activity and in % tell how likely is to token reach $1m FDV based on onchain activity",
+        "evidence": null,
+        "source": "https://api.imd.fun/schedules",
+        "readAt": "2026-09-29T14:21:07.279944Z"
+      },
+      {
+        "id": "7115e31b-35cb-4427-a87d-6566d9398791",
+        "label": null,
+        "action": "oracle.request",
+        "status": "exhausted",
+        "statusReason": "every run has been opened",
+        "runsRemaining": 0,
+        "runsBought": 3,
+        "nextRunAt": null,
+        "lastRunAt": "2026-09-28T20:58:29.218Z",
+        "createdAt": "2026-09-28T20:14:26.686Z",
+        "cadence": "every PT11M",
+        "question": "At the time this question is opened, what is the price of 1 ETH in US dollars according to Coinbase's ETH-USD spot price, rounded to the nearest whole dollar?",
+        "evidence": "panel",
+        "source": "https://api.imd.fun/schedules",
+        "readAt": "2026-09-29T14:21:07.279944Z"
+      },
+      {
+        "id": "c796797e-aefa-495a-83f3-b07eab109e82",
+        "label": "canary: WETH9 decimals() == 18, hourly",
+        "action": "oracle.request",
+        "status": "active",
+        "statusReason": null,
+        "runsRemaining": 148,
+        "runsBought": 168,
+        "nextRunAt": "2026-09-29T14:59:32.944Z",
+        "lastRunAt": "2026-09-29T13:59:36.665Z",
+        "createdAt": "2026-09-28T19:02:50.475Z",
+        "cadence": "every PT1H",
+        "question": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?",
+        "evidence": "chain",
+        "source": "https://api.imd.fun/schedules",
+        "readAt": "2026-09-29T14:21:07.279944Z"
+      },
+      {
+        "id": "3dee67ee-d49c-4fe5-9277-dd28869622c7",
+        "label": "daily WETH volume leader (Uniswap v4, mainnet)",
+        "action": "oracle.request",
+        "status": "active",
+        "statusReason": null,
+        "runsRemaining": 30,
+        "runsBought": 30,
+        "nextRunAt": "2026-09-30T09:00:00.000Z",
+        "lastRunAt": "2026-09-29T09:00:00.858Z",
+        "createdAt": "2026-09-28T18:41:35.524Z",
+        "cadence": "cron 0 9 * * * (UTC)",
+        "question": "Which Uniswap v4 pool on Ethereum mainnet did the most WETH volume in the window?",
+        "evidence": null,
+        "source": "https://api.imd.fun/schedules",
+        "readAt": "2026-09-29T14:21:07.279944Z"
+      },
+      {
+        "id": "55b02eb9-6c2b-40d3-9638-6247727f6355",
+        "label": "canary: WETH9 decimals, hourly",
+        "action": "oracle.request",
+        "status": "cancelled",
+        "statusReason": "cancelled by operator",
+        "runsRemaining": 167,
+        "runsBought": 168,
+        "nextRunAt": null,
+        "lastRunAt": "2026-09-28T18:41:38.457Z",
+        "createdAt": "2026-09-28T18:41:23.969Z",
+        "cadence": "every PT1H",
+        "question": "What does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return for decimals() at the window's last block?",
+        "evidence": "chain",
+        "source": "https://api.imd.fun/schedules",
+        "readAt": "2026-09-29T14:21:07.279944Z"
+      }
+    ]
+  },
+  "seats": {
+    "active24h": {
+      "value": 504,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z",
+      "note": "Trailing activity window ending at read time."
+    },
+    "active7d": {
+      "value": 524,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z",
+      "note": "Trailing activity window ending at read time."
+    },
+    "everWorked": {
+      "value": 524,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z"
+    },
+    "everAccepted": {
+      "value": 520,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z"
+    },
+    "totalAccepted": {
+      "value": 307734,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z"
+    },
+    "top5Share": {
+      "value": 0.027588761722786563,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z"
+    },
+    "top20Share": {
+      "value": 0.10251385937205508,
+      "source": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z"
+    },
+    "top5": [
+      {
+        "tokenId": "1871",
+        "accepted": 1727,
+        "source": "https://api.imd.fun/seats/records",
+        "readAt": "2026-09-29T14:22:04.301295Z"
+      },
+      {
+        "tokenId": "475",
+        "accepted": 1697,
+        "source": "https://api.imd.fun/seats/records",
+        "readAt": "2026-09-29T14:22:04.301295Z"
+      },
+      {
+        "tokenId": "880",
+        "accepted": 1697,
+        "source": "https://api.imd.fun/seats/records",
+        "readAt": "2026-09-29T14:22:04.301295Z"
+      },
+      {
+        "tokenId": "355",
+        "accepted": 1693,
+        "source": "https://api.imd.fun/seats/records",
+        "readAt": "2026-09-29T14:22:04.301295Z"
+      },
+      {
+        "tokenId": "527",
+        "accepted": 1676,
+        "source": "https://api.imd.fun/seats/records",
+        "readAt": "2026-09-29T14:22:04.301295Z"
+      }
+    ]
+  },
+  "changelog": {
+    "baselineAsOf": "2026-09-29",
+    "baselineNote": "Compared with the preserved first issue covering 2026-09-28.",
+    "docsToc": [
+      "Base URLs",
+      "Authentication",
+      "Errors",
+      "Pagination",
+      "Health and catalog",
+      "Jobs",
+      "Workflows",
+      "Oracle",
+      "Schedules",
+      "Research and fuzz",
+      "Fleet and seats",
+      "Publications and sites",
+      "Launches",
+      "Records and reviews",
+      "Explorer",
+      "Paid requests",
+      "Job body",
+      "Composing work",
+      "Workflow body",
+      "Oracle body",
+      "Schedule body",
+      "Pairing and agents",
+      "Bundles and artifacts",
+      "Sites and ENS",
+      "Signed device calls",
+      "WebSocket"
+    ],
+    "docsRoutes": [
+      "POST /requests/quote",
+      "POST /requests/:id/submit",
+      "GET /requests/:id",
+      "POST /pair/start",
+      "POST /pair/complete",
+      "POST /agents/bind",
+      "POST /sites/publish",
+      "POST /ens"
+    ],
+    "paidActions": [
+      "job.open",
+      "launch.open",
+      "oracle.request",
+      "workflow.open",
+      "schedule.create",
+      "schedule.topup"
+    ],
+    "skills": [
+      {
+        "id": "adapt-contract-project",
+        "version": 1,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "adversarial-review",
+        "version": 3,
+        "role": "review",
+        "tier": 1
+      },
+      {
+        "id": "audit-imported-code",
+        "version": 2,
+        "role": "review",
+        "tier": 1
+      },
+      {
+        "id": "audit-judge",
+        "version": 3,
+        "role": "review",
+        "tier": 1
+      },
+      {
+        "id": "audit-specialist",
+        "version": 3,
+        "role": "review",
+        "tier": 1
+      },
+      {
+        "id": "better-interface",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "build-contract-project",
+        "version": 3,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "build-ponder-indexer",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "build-website",
+        "version": 4,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "create-audio",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "create-image",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "create-video",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "custom-token-launch",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "defi-native",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "deploy-script",
+        "version": 1,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "eth-addresses",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-concepts",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-frontend-ux",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-l2s",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-security",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-standards",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "eth-testing",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "evm-project-launch",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "fix-findings",
+        "version": 3,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "frontend-for-contract",
+        "version": 8,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "gas-and-size-report",
+        "version": 1,
+        "role": "tests",
+        "tier": 1
+      },
+      {
+        "id": "implement-and-test",
+        "version": 1,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "implement-component",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "implement-contract",
+        "version": 1,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "implement-one-contract",
+        "version": 1,
+        "role": "implement",
+        "tier": 1
+      },
+      {
+        "id": "import-site",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "integrate-project",
+        "version": 1,
+        "role": "integrate",
+        "tier": 2
+      },
+      {
+        "id": "oracle-assess",
+        "version": 3,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "pashov-fizz",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "pashov-skill",
+        "version": 4,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "pashov-xray",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "public-rpcs",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "refine-project",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "research-report",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "scaffold-project",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "site-content-check",
+        "version": 1,
+        "role": "review",
+        "tier": 1
+      },
+      {
+        "id": "solidity-security-review",
+        "version": 3,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "tob-entry-point-analyzer",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "tob-property-based-testing",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "uniswap-v4-hooks",
+        "version": 1,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "uniswap-v4-security",
+        "version": 2,
+        "role": "reference",
+        "tier": null
+      },
+      {
+        "id": "workflow-planner",
+        "version": 5,
+        "role": "implement",
+        "tier": 2
+      },
+      {
+        "id": "write-foundry-tests",
+        "version": 2,
+        "role": "tests",
+        "tier": 1
+      },
+      {
+        "id": "write-readme-and-docs",
+        "version": 1,
+        "role": "implement",
+        "tier": 2
+      }
+    ],
+    "versionFeatures": [
+      "scheduling",
+      "verificationQueue",
+      "startCommitAttribution"
+    ],
+    "versionCommit": "9f82246fa030af9edf75b66ad61b21a616e1f8a4",
+    "services": [
+      {
+        "kind": "verifier",
+        "version": "0.1.0+4ec1a4b6",
+        "up": true
+      },
+      {
+        "kind": "deployer",
+        "version": "0.1.0+4ec1a4b6",
+        "up": true
+      },
+      {
+        "kind": "publisher",
+        "version": "0.1.0+9f82246f",
+        "up": true
+      }
+    ],
+    "workerRelease": {
+      "tag": "worker-v0.1.0-4ec1a4b63f24",
+      "name": "Worker 0.1.0+4ec1a4b6",
+      "publishedAt": "2026-09-29T02:16:37Z",
+      "url": "https://github.com/Identity-md/worker/releases/tag/worker-v0.1.0-4ec1a4b63f24",
+      "notes": [
+        "Publisher: a site is pinned only from its committed export; its own build never runs here"
+      ],
+      "source": "https://api.github.com/repos/identity-md/worker/releases",
+      "readAt": "2026-09-29T14:21:07.515182Z"
+    },
+    "workerReleasesLast7d": 17,
+    "dated": [
+      {
+        "date": "2026-09-29T02:16:37Z",
+        "kind": "worker-release",
+        "title": "Website publishing now uses the saved production build",
+        "detail": "The publisher uses the finished website files supplied by the builder. It no longer runs the site build itself.",
+        "url": "https://github.com/Identity-md/worker/releases/tag/worker-v0.1.0-4ec1a4b63f24",
+        "source": "https://api.github.com/repos/identity-md/worker/releases",
+        "readAt": "2026-09-29T14:21:07.515182Z"
+      },
+      {
+        "date": "2026-09-29T14:21:07.289273Z",
+        "kind": "version",
+        "title": "The public service is running a newer build",
+        "detail": "The build changed since issue 1; its three listed features stayed the same.",
+        "url": "https://api.imd.fun/version",
+        "source": "https://api.imd.fun/version",
+        "readAt": "2026-09-29T14:21:07.289273Z"
+      }
+    ],
+    "diff": {
+      "versionCommit": {
+        "before": "042c10fcddea6644fa6e120f836c6c35d4d3cc0e",
+        "after": "9f82246fa030af9edf75b66ad61b21a616e1f8a4"
+      },
+      "workerRelease": {
+        "before": "worker-v0.1.0-042c10fcddea",
+        "after": "worker-v0.1.0-4ec1a4b63f24"
+      },
+      "services": {
+        "before": [
+          {
+            "kind": "verifier",
+            "version": "0.1.0+042c10fc",
+            "up": true
+          },
+          {
+            "kind": "deployer",
+            "version": "0.1.0+042c10fc",
+            "up": true
+          },
+          {
+            "kind": "publisher",
+            "version": "0.1.0+042c10fc",
+            "up": true
+          }
+        ],
+        "after": [
+          {
+            "kind": "verifier",
+            "version": "0.1.0+4ec1a4b6",
+            "up": true
+          },
+          {
+            "kind": "deployer",
+            "version": "0.1.0+4ec1a4b6",
+            "up": true
+          },
+          {
+            "kind": "publisher",
+            "version": "0.1.0+9f82246f",
+            "up": true
+          }
+        ]
+      },
+      "skills": {
+        "before": [
+          {
+            "id": "adapt-contract-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "adversarial-review",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-imported-code",
+            "version": 2,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-judge",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-specialist",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "better-interface",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "build-contract-project",
+            "version": 3,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "build-ponder-indexer",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "build-website",
+            "version": 4,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-audio",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-image",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-video",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "custom-token-launch",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "defi-native",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "deploy-script",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "evm-project-launch",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "fix-findings",
+            "version": 3,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "frontend-for-contract",
+            "version": 8,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "gas-and-size-report",
+            "version": 1,
+            "role": "tests",
+            "tier": 1
+          },
+          {
+            "id": "implement-and-test",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "implement-component",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "implement-contract",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "implement-one-contract",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "import-site",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "integrate-project",
+            "version": 1,
+            "role": "integrate",
+            "tier": 2
+          },
+          {
+            "id": "oracle-assess",
+            "version": 3,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "pashov-fizz",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "pashov-skill",
+            "version": 4,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "pashov-xray",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "public-rpcs",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "refine-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "research-report",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "scaffold-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "site-content-check",
+            "version": 1,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "solidity-security-review",
+            "version": 3,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "tob-entry-point-analyzer",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "tob-property-based-testing",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "uniswap-v4-hooks",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "uniswap-v4-security",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "workflow-planner",
+            "version": 5,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "write-foundry-tests",
+            "version": 2,
+            "role": "tests",
+            "tier": 1
+          },
+          {
+            "id": "write-readme-and-docs",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          }
+        ],
+        "after": [
+          {
+            "id": "adapt-contract-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "adversarial-review",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-imported-code",
+            "version": 2,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-judge",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "audit-specialist",
+            "version": 3,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "better-interface",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "build-contract-project",
+            "version": 3,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "build-ponder-indexer",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "build-website",
+            "version": 4,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-audio",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-image",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "create-video",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "custom-token-launch",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "defi-native",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "deploy-script",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "eth-addresses",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-concepts",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-frontend-ux",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-l2s",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-security",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-standards",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "eth-testing",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "evm-project-launch",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "fix-findings",
+            "version": 3,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "frontend-for-contract",
+            "version": 8,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "gas-and-size-report",
+            "version": 1,
+            "role": "tests",
+            "tier": 1
+          },
+          {
+            "id": "implement-and-test",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "implement-component",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "implement-contract",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "implement-one-contract",
+            "version": 1,
+            "role": "implement",
+            "tier": 1
+          },
+          {
+            "id": "import-site",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "integrate-project",
+            "version": 1,
+            "role": "integrate",
+            "tier": 2
+          },
+          {
+            "id": "oracle-assess",
+            "version": 3,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "pashov-fizz",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "pashov-skill",
+            "version": 4,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "pashov-xray",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "public-rpcs",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "refine-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "research-report",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "scaffold-project",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "site-content-check",
+            "version": 1,
+            "role": "review",
+            "tier": 1
+          },
+          {
+            "id": "solidity-security-review",
+            "version": 3,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "tob-entry-point-analyzer",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "tob-property-based-testing",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "uniswap-v4-hooks",
+            "version": 1,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "uniswap-v4-security",
+            "version": 2,
+            "role": "reference",
+            "tier": null
+          },
+          {
+            "id": "workflow-planner",
+            "version": 5,
+            "role": "implement",
+            "tier": 2
+          },
+          {
+            "id": "write-foundry-tests",
+            "version": 2,
+            "role": "tests",
+            "tier": 1
+          },
+          {
+            "id": "write-readme-and-docs",
+            "version": 1,
+            "role": "implement",
+            "tier": 2
+          }
+        ]
+      }
+    }
+  },
+  "briefs": {
+    "accepted": [
+      {
+        "job": "198ebf69-e885-4df9-b886-7570a2f78d6d",
+        "objective300": "A token and nothing else: drIMD (DRIM).\nToken name: drIMD\nToken symbol: DRIM\nTotal supply: 10000000, with 7 decimals\nTransfer rules: 5% of every transfer goes to [address]\nMinting after launch: none; the supply is fixed\nPausing: nobody can pause transfers\nAlso: Testing or maybe not \nDrIMD knows",
+        "skill": "build_contract_project",
+        "attempt": 1,
+        "revisions": 2,
+        "minutesToAccept": 24.68,
+        "source": "https://api.imd.fun/jobs/198ebf69-e885-4df9-b886-7570a2f78d6d",
+        "readAt": "2026-09-29T14:22:00.643952Z"
+      },
+      {
+        "job": "ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+        "objective300": "Build a one-page interactive website called Chain Time Machine.\nThe user enters an Ethereum address and a block number. The site creates a visual “snapshot card” showing the address, selected block, a deterministic visual fingerprint generated from the address, and a human-readable timestamp for tha",
+        "skill": "build_website",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 23.8,
+        "source": "https://api.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+        "readAt": "2026-09-29T14:22:00.644766Z"
+      },
+      {
+        "job": "14548a28-b7cb-4fa2-b997-688fa23d0bad",
+        "objective300": "Focus on the Swarm Pepe contract's claim and reveal mechanics, not a generic IMD overview or promotional video.  Build a small, public, read-only “Swarm Pepe Field Guide” for Ethereum contract [address]. Explain in plain language how eligibility, the free claim, the delayed reveal, and fully on-chai",
+        "skill": "build_website",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 21.74,
+        "source": "https://api.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+        "readAt": "2026-09-29T14:22:00.645433Z"
+      },
+      {
+        "job": "2a341a21-e9c9-47b3-a685-24efc1944b7d",
+        "objective300": "A warm, detailed illustration of a swarm of small friendly robots building a glowing city skyline together at sunset, clean flat vector style, square 1:1 composition, suitable as a profile banner.",
+        "skill": "create_image",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 1.82,
+        "source": "https://api.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+        "readAt": "2026-09-29T14:22:00.646585Z"
+      },
+      {
+        "job": "633556f2-e697-4ad9-8094-1cbfee5c41f7",
+        "objective300": "Starting from a tree with nothing in it, deliver one small standalone Foundry project and nothing more. Write the build configuration and the directory layout by hand, and depend on nothing that must be fetched — no package manager, no vendored test framework, no submodules of any kind — because the",
+        "skill": "build_contract_project",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 12.06,
+        "source": "https://api.imd.fun/jobs/633556f2-e697-4ad9-8094-1cbfee5c41f7",
+        "readAt": "2026-09-29T14:22:00.647597Z"
+      },
+      {
+        "job": "316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+        "objective300": "Make a 25-second video for the Swarm Pepe NFT collection on Ethereum mainnet.\n\nSwarmPepe:  [address]\nPixelArt:   [address]\n\nConcept is yours. Two hard rules:\n\n1. Every pepe on screen must be a real minted token, rendered by calling\n   PixelArt.renderSVG(seedOf(id)) on chain. Do not invent trait comb",
+        "skill": "create_video",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 8.06,
+        "source": "https://api.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+        "readAt": "2026-09-29T14:22:00.648427Z"
+      },
+      {
+        "job": "0828583e-67db-4ee9-85b7-63976ffa2b37",
+        "objective300": "A 3D animated video of Goku going into Super Saiyan mode before destroying Frieza\n\nLength: under a minute",
+        "skill": "create_video",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 17.78,
+        "source": "https://api.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+        "readAt": "2026-09-29T14:22:00.650972Z"
+      },
+      {
+        "job": "06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+        "objective300": "WORKFLOW FRONTEND STAGE CONTEXT: contracts are already deployed. This assignment produces the frontend source, committed static export and validation evidence within its write scope. Put frontend source, package.json, lockfiles and build configuration under web/, the static export at repository-root",
+        "skill": "frontend_for_contract",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 39.27,
+        "source": "https://api.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+        "readAt": "2026-09-29T14:22:00.651628Z"
+      },
+      {
+        "job": "501472d7-f149-455e-8ee0-6df03c506480",
+        "objective300": "WORKFLOW FRONTEND STAGE CONTEXT: contracts are already deployed. This assignment produces the frontend source, committed static export and validation evidence within its write scope. Put frontend source, package.json, lockfiles and build configuration under web/, the static export at repository-root",
+        "skill": "frontend_for_contract",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 27.48,
+        "source": "https://api.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+        "readAt": "2026-09-29T14:22:00.656349Z"
+      },
+      {
+        "job": "306a0adc-ced5-4a74-b110-4ee52187546b",
+        "objective300": "WORKFLOW CONTRACT STAGE CONTEXT: the stage produces implemented and tested contracts, ABI documentation and an independently reviewed launch.json. Each assignment contributes only within its own role and write scope. Source-producing assignments own implementation, tests and ABI exports at docs/abi/",
+        "skill": "build_contract_project",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 11.91,
+        "source": "https://api.imd.fun/jobs/306a0adc-ced5-4a74-b110-4ee52187546b",
+        "readAt": "2026-09-29T14:22:00.878013Z"
+      },
+      {
+        "job": "3fa23364-90be-48d5-896c-31045d0c35bd",
+        "objective300": "WORKFLOW CONTRACT STAGE CONTEXT: the stage produces implemented and tested contracts, ABI documentation and an independently reviewed launch.json. Each assignment contributes only within its own role and write scope. Source-producing assignments own implementation, tests and ABI exports at docs/abi/",
+        "skill": "build_contract_project",
+        "attempt": 1,
+        "revisions": 3,
+        "minutesToAccept": 145.01,
+        "source": "https://api.imd.fun/jobs/3fa23364-90be-48d5-896c-31045d0c35bd",
+        "readAt": "2026-09-29T14:22:00.878701Z"
+      },
+      {
+        "job": "c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+        "objective300": "Build a polished interactive explainer website of Vitalik Buterin's Snowmoon short story.\n\nSOURCE (do not invent plot/lore beyond this):\nhttps://github.com/vbuterin/blog/tree/5c6b6d0808ef271d09bb1182ab8697542ee7058d/site/snowmoon\nCommit 5c6b6d0808ef271d09bb1182ab8697542ee7058d — read site/snowmoon/i",
+        "skill": "build_website",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 35.9,
+        "source": "https://api.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+        "readAt": "2026-09-29T14:22:00.881137Z"
+      },
+      {
+        "job": "6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+        "objective300": "build a website that tells you the story of vitalik (eth founder) book and make it into an explorable designed section and publish the website as well. https://github.com/vbuterin/blog/blob/5c6b6d0808ef271d09bb1182ab8697542ee7058d/site/snowmoon/src/ch30.txt\n\nmake it detailed, easy to understand and ",
+        "skill": "build_website",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 25.37,
+        "source": "https://api.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+        "readAt": "2026-09-29T14:22:00.881565Z"
+      },
+      {
+        "job": "f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+        "objective300": "Build BUILT BY THE SWARM: a static site showing what the IdentityMD network shipped, with media, a written daily issue and a protocol changelog, from public sources only. This job produces issue 1 (2026-09-29) and the site. Later issues come from daily jobs whose repository names start with \"swarm-d",
+        "skill": "build_website",
+        "attempt": 1,
+        "revisions": 0,
+        "minutesToAccept": 38.56,
+        "source": "https://api.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+        "readAt": "2026-09-29T14:22:00.883705Z"
+      },
+      {
+        "job": "23eb7fc4-5ed9-4560-9018-f4bf2abd75c4",
+        "objective300": "Build SEATLEASE v1: one registry contract that holds identitymd seats (an ERC-721) so a seat owner can let an operator run the seat and both share the rewards. The network pairs a device by verifying an EIP-712 WorkerAuthorization signature and accepts ERC-1271 from contract owners, so this contract",
+        "skill": "build_contract_project",
+        "attempt": 1,
+        "revisions": 3,
+        "minutesToAccept": 171.75,
+        "source": "https://api.imd.fun/jobs/23eb7fc4-5ed9-4560-9018-f4bf2abd75c4",
+        "readAt": "2026-09-29T14:22:00.884144Z"
+      }
+    ],
+    "parked": []
+  },
+  "gallery": [
+    {
+      "id": "oracle-dbba353a-22bf-4a12-837f-7f48c2d5d9bd",
+      "name": "Wrapped Ether check · 14:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T14:01:03.975Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 14:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 14:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/1553f489-81bb-44e2-a938-c8613e4babc8",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/dbba353a-22bf-4a12-837f-7f48c2d5d9bd"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "schedule-c796797e-aefa-495a-83f3-b07eab109e82",
+      "name": "Hourly wrapped Ether check",
+      "headline": "Wrapped Ether checks continue every hour",
+      "kind": "heartbeat",
+      "at": "2026-09-29T13:59:36.665Z",
+      "idea": "A question checks wrapped Ether’s decimal places every hour.",
+      "today": "The schedule kept running its hourly checks.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "hourly-weth-check",
+      "asked": "A question checks wrapped Ether’s decimal places every hour.",
+      "built": "The schedule kept running its hourly checks.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/c796797e-aefa-495a-83f3-b07eab109e82"
+      },
+      "extra": {
+        "label": "Hourly wrapped Ether check",
+        "cadence": "every hour",
+        "runsRemaining": 148,
+        "runsBought": 168
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "oracle-92ce7a6f-a1be-40de-917b-4cef5a748479",
+      "name": "Wrapped Ether check · 13:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T13:01:30.564Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 13:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 13:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/ca03f09f-185d-48d4-8f73-0a2a89eb0c35",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/92ce7a6f-a1be-40de-917b-4cef5a748479"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-5471b842-a04c-4882-8763-640d8114b3da",
+      "name": "Chain Time Machine",
+      "headline": "An address gets a window into Ethereum history",
+      "kind": "website",
+      "at": "2026-09-29T12:45:37.615Z",
+      "idea": "Turn an Ethereum address and block into a dated picture.",
+      "today": "A new website adds snapshots and block comparisons.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "chain-time-machine",
+      "asked": "Turn an Ethereum address and block into a dated picture.",
+      "built": "A new website adds snapshots and block comparisons.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/ce55b466.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-ce55b466.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-452-build-one-page-interactive-website",
+        "job": "https://explorer.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 284880,
+        "ensName": "site-ce55b466.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+      "readAt": "2026-09-29T14:22:00.644766Z"
+    },
+    {
+      "id": "oracle-8048611b-e3ad-46dc-a841-c4c0e1885acc",
+      "name": "Wrapped Ether check · 12:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T12:01:27.772Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 12:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 12:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/266c4441-bcb2-442f-8bac-2f829dcb3b28",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/8048611b-e3ad-46dc-a841-c4c0e1885acc"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-35623833-99cb-4d08-b49e-351dcfef0615",
+      "name": "Swarm Pepe Field Guide",
+      "headline": "A field guide explains how Swarm Pepe reveals work",
+      "kind": "website",
+      "at": "2026-09-29T12:00:51.340Z",
+      "idea": "Learn how Swarm Pepe claims and delayed artwork reveals work.",
+      "today": "A new guide explains the rules with a simulation.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "swarm-pepe-field-guide",
+      "asked": "Learn how Swarm Pepe claims and delayed artwork reveals work.",
+      "built": "A new guide explains the rules with a simulation.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/14548a28.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-14548a28.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-451-focus-swarm-pepe-contract-s",
+        "job": "https://explorer.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 42819,
+        "ensName": "site-14548a28.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+      "readAt": "2026-09-29T14:22:00.645433Z"
+    },
+    {
+      "id": "oracle-4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "name": "What is the result of last night's Turkey-Italy match?",
+      "headline": "A football result question receives a published answer",
+      "kind": "oracle",
+      "at": "2026-09-29T11:32:22.427Z",
+      "idea": "What is the result of last night's Turkey-Italy match?",
+      "today": "The answer was published at 11:32 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "oracle-4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "asked": "What is the result of last night's Turkey-Italy match?",
+      "built": "The answer was published at 11:32 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/b0ff1f00-18f7-4f24-aeb9-e598f0d7aea8",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/4c4c29c6-76ba-4f78-9b53-4385fa3aaf01"
+      },
+      "extra": {
+        "question": "What is the result of last night's Turkey-Italy match?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bytes32",
+        "rawQuestion": "What is the result of last night's Turkey-Italy match?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "job-2a341a21-e9c9-47b3-a685-24efc1944b7d",
+      "name": "Robot city illustration",
+      "headline": "The robot city illustration has no image to publish",
+      "kind": "image",
+      "at": "2026-09-29T11:32:11.447Z",
+      "idea": "A friendly robot city illustration was requested for a banner.",
+      "today": "The job ended without an image to publish.",
+      "status": {
+        "state": "failed",
+        "reason": "no image was delivered"
+      },
+      "projectSlug": "robot-city-illustration",
+      "asked": "A friendly robot city illustration was requested for a banner.",
+      "built": "The job ended without an image to publish.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+      "readAt": "2026-09-29T14:22:00.646585Z"
+    },
+    {
+      "id": "oracle-a69c7dc0-cac4-4409-9118-050c8d7621d7",
+      "name": "Wrapped Ether check · 11:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T11:01:40.180Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 11:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 11:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/7ce426a3-0c61-4b33-85b6-05cdbbb40e89",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/a69c7dc0-cac4-4409-9118-050c8d7621d7"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-f9780582-cc3d-4a70-bad1-6ab9b38286b1",
+      "name": "Wrapped Ether check · 10:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T10:01:22.940Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 10:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 10:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/9efb2aab-bf09-4f83-9f90-5c81091a1672",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/f9780582-cc3d-4a70-bad1-6ab9b38286b1"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-b6a2f54f-aaf1-4fda-b794-a6d919d8a02b",
+      "name": "Wrapped Ether check · 09:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T09:01:23.413Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 09:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 09:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/03eb27ea-6df0-431e-a241-1d3fe2c40655",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/b6a2f54f-aaf1-4fda-b794-a6d919d8a02b"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "schedule-3dee67ee-d49c-4fe5-9277-dd28869622c7",
+      "name": "Daily trading leader check",
+      "headline": "The daily trading check records a morning run",
+      "kind": "heartbeat",
+      "at": "2026-09-29T09:00:00.858Z",
+      "idea": "A question checks the leading wrapped Ether pool daily.",
+      "today": "The schedule recorded its daily run at 09:00 UTC.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "daily-weth-volume",
+      "asked": "A question checks the leading wrapped Ether pool daily.",
+      "built": "The schedule recorded its daily run at 09:00 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/3dee67ee-d49c-4fe5-9277-dd28869622c7"
+      },
+      "extra": {
+        "label": "Daily trading leader check",
+        "cadence": "daily at 09:00 UTC",
+        "runsRemaining": 30,
+        "runsBought": 30
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "job-316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+      "name": "Swarm Pepe: minted signals",
+      "headline": "Twelve minted Pepes star in a new short film",
+      "kind": "video",
+      "at": "2026-09-29T08:58:13.537Z",
+      "idea": "Watch real Swarm Pepe portraits in a short film.",
+      "today": "A 25-second film was published with original music.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "swarm-pepe-minted-signals",
+      "asked": "Watch real Swarm Pepe portraits in a short film.",
+      "built": "A 25-second film was published with original music.",
+      "media": {
+        "type": "video",
+        "src": "media/swarm-pepe-minted-signals.mp4",
+        "poster": "media/swarm-pepe-minted-signals.webp",
+        "original": "https://raw.githubusercontent.com/identity-md-launches/launch-449-make-25-second-video-swarm/b08f2bf597ca9fcd714e24c7ea443efb2a6ff13a/artifacts/video.mp4",
+        "bytes": 272599,
+        "note": "Full-duration compact display copy of the delivered film; original linked in technical details.",
+        "sha256": "2b0da14fd4c999ff71e63875041cc235c9e76476972445c73a9d89fa90e5b2ea",
+        "originalSha256": "42e19d27d714703028fe584def366993d958f8cf6fd6bb61d4e4cef82e66d902"
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-449-make-25-second-video-swarm",
+        "job": "https://explorer.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+      "readAt": "2026-09-29T14:22:00.648427Z"
+    },
+    {
+      "id": "schedule-89eef405-0d74-44dd-8012-0de841e28b09",
+      "name": "HIVE trading report",
+      "headline": "HIVE trading reports join the recurring jobs",
+      "kind": "heartbeat",
+      "at": "2026-09-29T08:21:18.555Z",
+      "idea": "A report reviews HIVE holders and trading every six hours.",
+      "today": "A new schedule was created with three paid reports.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "schedule-89eef405-0d74-44dd-8012-0de841e28b09",
+      "asked": "A report reviews HIVE holders and trading every six hours.",
+      "built": "A new schedule was created with three paid reports.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/89eef405-0d74-44dd-8012-0de841e28b09"
+      },
+      "extra": {
+        "label": "HIVE trading report",
+        "cadence": "every six hours",
+        "runsRemaining": 3,
+        "runsBought": 3
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "oracle-46af9bd5-ddbf-4d83-b6d5-f52b797acb36",
+      "name": "Wrapped Ether check · 08:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T08:01:20.403Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 08:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 08:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/3b8c991e-12b6-4754-a9b5-b4696c268c16",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/46af9bd5-ddbf-4d83-b6d5-f52b797acb36"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "job-0828583e-67db-4ee9-85b7-63976ffa2b37",
+      "name": "Super Saiyan showdown",
+      "headline": "Goku and Frieza meet in a short fan animation",
+      "kind": "video",
+      "at": "2026-09-29T07:42:12.617Z",
+      "idea": "Watch a short animated fight between Goku and Frieza.",
+      "today": "A 22-second fan animation was published.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "super-saiyan-showdown",
+      "asked": "Watch a short animated fight between Goku and Frieza.",
+      "built": "A 22-second fan animation was published.",
+      "media": {
+        "type": "video",
+        "src": "media/super-saiyan-showdown.mp4",
+        "poster": "media/super-saiyan-showdown.webp",
+        "original": "https://raw.githubusercontent.com/identity-md-launches/launch-448-3d-animated-video-goku/13b8a95da2c3487fbfc24c5191b86cfc90527601/artifacts/video.mp4",
+        "bytes": 363154,
+        "note": "Full-duration compact display copy of the delivered film; original linked in technical details.",
+        "sha256": "f49b21a305d0b44dcf8411beacbf73a8d73bae560d9b15d56e8a8cbc244c942f",
+        "originalSha256": "017c33a8ab5b6dee92a1c2b02f73736ef47bbaaa05a8d78f2da88fa80bfc97a0"
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-448-3d-animated-video-goku",
+        "job": "https://explorer.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+      "readAt": "2026-09-29T14:22:00.650972Z"
+    },
+    {
+      "id": "oracle-c493daa1-8ec1-4fa0-8658-c5cbc999a478",
+      "name": "Wrapped Ether check · 07:00",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T07:00:47.622Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 07:00 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 07:00 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/12408109-55d2-47b2-9a7f-94b00b199442",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/c493daa1-8ec1-4fa0-8658-c5cbc999a478"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-063a8cc3-2f02-42ec-ba3f-0e9206468e33",
+      "name": "Wrapped Ether check · 06:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T06:01:14.972Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 06:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 06:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/1e27f114-7ab3-47ff-808a-86960035ed92",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/063a8cc3-2f02-42ec-ba3f-0e9206468e33"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-9fc80ef5-bd5e-4230-96e4-d222ac342462",
+      "name": "Pacts website",
+      "headline": "Pacts opens its map to players",
+      "kind": "website",
+      "at": "2026-09-29T05:52:02.745Z",
+      "idea": "Players form guilds and compete for land on a shared map.",
+      "today": "The game gained a website after its test-network launch.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "pacts",
+      "asked": "Players form guilds and compete for land on a shared map.",
+      "built": "The game gained a website after its test-network launch.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/06dfbcec.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://pacts.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-447-workflow-frontend-stage-context",
+        "job": "https://explorer.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 709799,
+        "ensName": "pacts.site.identitymd.eth",
+        "signatures": [
+          "packPactData(uint256 partner, uint256 durationEpochs, uint256 ownBond, uint256 partnerBond)",
+          "unpackPactData(bytes32 data)",
+          "signPact(uint256 proposalA, uint256 proposalB)"
+        ]
+      },
+      "source": "https://api.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+      "readAt": "2026-09-29T14:22:00.651628Z"
+    },
+    {
+      "id": "launch-964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+      "name": "Pacts",
+      "headline": "Pacts launches its guild game on a test network",
+      "kind": "contracts",
+      "at": "2026-09-29T05:09:50.820Z",
+      "idea": "Players form guilds and compete for land on a shared map.",
+      "today": "The game contracts launched on the Sepolia test network.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "pacts",
+      "asked": "Players form guilds and compete for land on a shared map.",
+      "built": "The game contracts launched on the Sepolia test network.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": "https://pacts.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-444-workflow-contract-stage-context",
+        "job": "https://explorer.imd.fun/jobs/3fa23364-90be-48d5-896c-31045d0c35bd",
+        "launch": "https://explorer.imd.fun/launches/964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 444,
+        "status": "live",
+        "chainId": 11155111,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "Guilds",
+            "address": "0x8cf40aadb31bad7b441f018d74c61191b96a2e42",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x7f88ad727adeb8fc70fd198f2d2319349846818c",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0x174ce0bdbd6af7e713225ced17c873203ba829a1",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "other",
+            "name": "Realm",
+            "address": "0x206bbcb9b91793decd1819e366334ab6dbbdc990",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          }
+        ],
+        "signatures": [
+          "packPactData(uint256 partner, uint256 durationEpochs, uint256 ownBond, uint256 partnerBond)",
+          "unpackPactData(bytes32 data)",
+          "signPact(uint256 proposalA, uint256 proposalB)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "site-bf485e05-4933-4c23-a4c0-d4719dc2b085",
+      "name": "IMD Card Pay website",
+      "headline": "A test payment app opens its card counter",
+      "kind": "website",
+      "at": "2026-09-29T04:01:38.342Z",
+      "idea": "Try a spend-card payment flow using test-network IMD.",
+      "today": "A new website shows pack choices and payment status.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "imd-card-pay",
+      "asked": "Try a spend-card payment flow using test-network IMD.",
+      "built": "A new website shows pack choices and payment status.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/501472d7.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://imd.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-446-workflow-frontend-stage-context",
+        "job": "https://explorer.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 644863,
+        "ensName": "imd.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+      "readAt": "2026-09-29T14:22:00.656349Z"
+    },
+    {
+      "id": "launch-a36cb67d-208f-4149-a31a-4a55cac4833c",
+      "name": "IMD Card Pay",
+      "headline": "A spend-card payment contract goes live for testing",
+      "kind": "contracts",
+      "at": "2026-09-29T03:32:28.443Z",
+      "idea": "Accept test-network IMD payments for spend-card packs.",
+      "today": "The payment contract launched on the Sepolia test network.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "imd-card-pay",
+      "asked": "Accept test-network IMD payments for spend-card packs.",
+      "built": "The payment contract launched on the Sepolia test network.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": "https://imd.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-445-workflow-contract-stage-context",
+        "job": "https://explorer.imd.fun/jobs/306a0adc-ced5-4a74-b110-4ee52187546b",
+        "launch": "https://explorer.imd.fun/launches/a36cb67d-208f-4149-a31a-4a55cac4833c",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 445,
+        "status": "live",
+        "chainId": 11155111,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "ImdCardPayment",
+            "address": "0x7ffdd2022de16ff12487904e60e9e8f0c4892721",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x10a7117e2f6d89afe15fa8adbc965d7e1c78613f",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0xd78a0bc1eaf45eb7b44332c314318af2780f2f87",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          }
+        ],
+        "signatures": [
+          "quote(uint8 packs)",
+          "pay(uint8 packs, bytes32 orderId, uint256 deadline)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "launch-cf273456-28ee-4198-a2fa-a89fa08a5225",
+      "name": "SeatLease",
+      "headline": "SeatLease launch stops over a reward-draining risk",
+      "kind": "contracts",
+      "at": "2026-09-29T02:24:30.979Z",
+      "idea": "Seat owners could lend their seats and share work rewards.",
+      "today": "A launch was stopped after a review found a reward-draining risk.",
+      "status": {
+        "state": "parked",
+        "reason": "a review found that seat owners could drain rewards"
+      },
+      "projectSlug": "seatlease",
+      "asked": "Seat owners could lend their seats and share work rewards.",
+      "built": "A launch was stopped after a review found a reward-draining risk.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-440-build-seatlease-v1-one",
+        "job": "https://explorer.imd.fun/jobs/23eb7fc4-5ed9-4560-9018-f4bf2abd75c4",
+        "launch": "https://explorer.imd.fun/launches/cf273456-28ee-4198-a2fa-a89fa08a5225",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 440,
+        "status": "parked",
+        "chainId": 11155111,
+        "artifacts": [],
+        "signatures": [
+          "deposit( uint256 tokenId, uint16 ownerBps, Mode mode, address allowedOperator, uint256 bondAmount, address oracleSigner, bytes32 questionHash, string calldata listing )",
+          "setTerms( uint256 tokenId, uint16 ownerBps, Mode mode, address allowedOperator, uint256 bondAmount, address oracleSigner, bytes32 questionHash, string calldata listing )",
+          "setRewardTokens(uint256 tokenId, address[] calldata tokens)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "site-69f5c480-c9cb-4d89-b666-2b14993aab29",
+      "name": "Snowmoon reader",
+      "headline": "Snowmoon becomes a chapter-by-chapter reading room",
+      "kind": "website",
+      "at": "2026-09-29T02:19:41.604Z",
+      "idea": "Read Vitalik Buterin’s story one chapter at a time.",
+      "today": "A new reader presents all 32 chapters.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "snowmoon",
+      "asked": "Read Vitalik Buterin’s story one chapter at a time.",
+      "built": "A new reader presents all 32 chapters.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/c3834e7b.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-c3834e7b.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-443-build-polished-interactive-explainer",
+        "job": "https://explorer.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 1708296,
+        "ensName": "site-c3834e7b.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+      "readAt": "2026-09-29T14:22:00.881137Z"
+    },
+    {
+      "id": "site-791b1d1d-e2ba-4285-9f7e-89a5857b3bfc",
+      "name": "Snowmoon chapter 30",
+      "headline": "One Snowmoon chapter becomes an interactive explainer",
+      "kind": "website",
+      "at": "2026-09-29T01:24:02.108Z",
+      "idea": "Explore the characters and events of one Snowmoon chapter.",
+      "today": "A new explainer adds a timeline and pattern experiment.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "snowmoon-chapter-30",
+      "asked": "Explore the characters and events of one Snowmoon chapter.",
+      "built": "A new explainer adds a timeline and pattern experiment.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/6b3bcbf5.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-6b3bcbf5.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-442-build-website-tells-you",
+        "job": "https://explorer.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 300648,
+        "ensName": "site-6b3bcbf5.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+      "readAt": "2026-09-29T14:22:00.881565Z"
+    },
+    {
+      "id": "site-82fa2795-5a9f-48a2-b50a-f77a032cfba0",
+      "name": "Built by the Swarm",
+      "headline": "The swarm gets its first daily newspaper",
+      "kind": "website",
+      "at": "2026-09-29T00:39:40.801Z",
+      "idea": "Catch up on the network’s public work in one place.",
+      "today": "The first daily edition was published.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "what-the-swarm-did",
+      "asked": "Catch up on the network’s public work in one place.",
+      "built": "The first daily edition was published.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/f8bd2d48.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-f8bd2d48.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-441-build-built-swarm-static",
+        "job": "https://explorer.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 1156234,
+        "ensName": "site-f8bd2d48.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+      "readAt": "2026-09-29T14:22:00.883705Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "oracle-dbba353a-22bf-4a12-837f-7f48c2d5d9bd",
+      "name": "Wrapped Ether check · 14:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T14:01:03.975Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 14:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 14:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/1553f489-81bb-44e2-a938-c8613e4babc8",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/dbba353a-22bf-4a12-837f-7f48c2d5d9bd"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "schedule-c796797e-aefa-495a-83f3-b07eab109e82",
+      "name": "Hourly wrapped Ether check",
+      "headline": "Wrapped Ether checks continue every hour",
+      "kind": "heartbeat",
+      "at": "2026-09-29T13:59:36.665Z",
+      "idea": "A question checks wrapped Ether’s decimal places every hour.",
+      "today": "The schedule kept running its hourly checks.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "hourly-weth-check",
+      "asked": "A question checks wrapped Ether’s decimal places every hour.",
+      "built": "The schedule kept running its hourly checks.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/c796797e-aefa-495a-83f3-b07eab109e82"
+      },
+      "extra": {
+        "label": "Hourly wrapped Ether check",
+        "cadence": "every hour",
+        "runsRemaining": 148,
+        "runsBought": 168
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "oracle-92ce7a6f-a1be-40de-917b-4cef5a748479",
+      "name": "Wrapped Ether check · 13:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T13:01:30.564Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 13:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 13:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/ca03f09f-185d-48d4-8f73-0a2a89eb0c35",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/92ce7a6f-a1be-40de-917b-4cef5a748479"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-5471b842-a04c-4882-8763-640d8114b3da",
+      "name": "Chain Time Machine",
+      "headline": "An address gets a window into Ethereum history",
+      "kind": "website",
+      "at": "2026-09-29T12:45:37.615Z",
+      "idea": "Turn an Ethereum address and block into a dated picture.",
+      "today": "A new website adds snapshots and block comparisons.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "chain-time-machine",
+      "asked": "Turn an Ethereum address and block into a dated picture.",
+      "built": "A new website adds snapshots and block comparisons.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/ce55b466.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-ce55b466.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-452-build-one-page-interactive-website",
+        "job": "https://explorer.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 284880,
+        "ensName": "site-ce55b466.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+      "readAt": "2026-09-29T14:22:00.644766Z"
+    },
+    {
+      "id": "oracle-8048611b-e3ad-46dc-a841-c4c0e1885acc",
+      "name": "Wrapped Ether check · 12:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T12:01:27.772Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 12:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 12:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/266c4441-bcb2-442f-8bac-2f829dcb3b28",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/8048611b-e3ad-46dc-a841-c4c0e1885acc"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-35623833-99cb-4d08-b49e-351dcfef0615",
+      "name": "Swarm Pepe Field Guide",
+      "headline": "A field guide explains how Swarm Pepe reveals work",
+      "kind": "website",
+      "at": "2026-09-29T12:00:51.340Z",
+      "idea": "Learn how Swarm Pepe claims and delayed artwork reveals work.",
+      "today": "A new guide explains the rules with a simulation.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "swarm-pepe-field-guide",
+      "asked": "Learn how Swarm Pepe claims and delayed artwork reveals work.",
+      "built": "A new guide explains the rules with a simulation.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/14548a28.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-14548a28.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-451-focus-swarm-pepe-contract-s",
+        "job": "https://explorer.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 42819,
+        "ensName": "site-14548a28.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+      "readAt": "2026-09-29T14:22:00.645433Z"
+    },
+    {
+      "id": "oracle-4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "name": "What is the result of last night's Turkey-Italy match?",
+      "headline": "A football result question receives a published answer",
+      "kind": "oracle",
+      "at": "2026-09-29T11:32:22.427Z",
+      "idea": "What is the result of last night's Turkey-Italy match?",
+      "today": "The answer was published at 11:32 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "oracle-4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "asked": "What is the result of last night's Turkey-Italy match?",
+      "built": "The answer was published at 11:32 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/b0ff1f00-18f7-4f24-aeb9-e598f0d7aea8",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/4c4c29c6-76ba-4f78-9b53-4385fa3aaf01"
+      },
+      "extra": {
+        "question": "What is the result of last night's Turkey-Italy match?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bytes32",
+        "rawQuestion": "What is the result of last night's Turkey-Italy match?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "job-2a341a21-e9c9-47b3-a685-24efc1944b7d",
+      "name": "Robot city illustration",
+      "headline": "The robot city illustration has no image to publish",
+      "kind": "image",
+      "at": "2026-09-29T11:32:11.447Z",
+      "idea": "A friendly robot city illustration was requested for a banner.",
+      "today": "The job ended without an image to publish.",
+      "status": {
+        "state": "failed",
+        "reason": "no image was delivered"
+      },
+      "projectSlug": "robot-city-illustration",
+      "asked": "A friendly robot city illustration was requested for a banner.",
+      "built": "The job ended without an image to publish.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+      "readAt": "2026-09-29T14:22:00.646585Z"
+    },
+    {
+      "id": "oracle-a69c7dc0-cac4-4409-9118-050c8d7621d7",
+      "name": "Wrapped Ether check · 11:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T11:01:40.180Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 11:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 11:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/7ce426a3-0c61-4b33-85b6-05cdbbb40e89",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/a69c7dc0-cac4-4409-9118-050c8d7621d7"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-f9780582-cc3d-4a70-bad1-6ab9b38286b1",
+      "name": "Wrapped Ether check · 10:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T10:01:22.940Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 10:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 10:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/9efb2aab-bf09-4f83-9f90-5c81091a1672",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/f9780582-cc3d-4a70-bad1-6ab9b38286b1"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-b6a2f54f-aaf1-4fda-b794-a6d919d8a02b",
+      "name": "Wrapped Ether check · 09:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T09:01:23.413Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 09:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 09:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/03eb27ea-6df0-431e-a241-1d3fe2c40655",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/b6a2f54f-aaf1-4fda-b794-a6d919d8a02b"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "schedule-3dee67ee-d49c-4fe5-9277-dd28869622c7",
+      "name": "Daily trading leader check",
+      "headline": "The daily trading check records a morning run",
+      "kind": "heartbeat",
+      "at": "2026-09-29T09:00:00.858Z",
+      "idea": "A question checks the leading wrapped Ether pool daily.",
+      "today": "The schedule recorded its daily run at 09:00 UTC.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "daily-weth-volume",
+      "asked": "A question checks the leading wrapped Ether pool daily.",
+      "built": "The schedule recorded its daily run at 09:00 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/3dee67ee-d49c-4fe5-9277-dd28869622c7"
+      },
+      "extra": {
+        "label": "Daily trading leader check",
+        "cadence": "daily at 09:00 UTC",
+        "runsRemaining": 30,
+        "runsBought": 30
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "job-316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+      "name": "Swarm Pepe: minted signals",
+      "headline": "Twelve minted Pepes star in a new short film",
+      "kind": "video",
+      "at": "2026-09-29T08:58:13.537Z",
+      "idea": "Watch real Swarm Pepe portraits in a short film.",
+      "today": "A 25-second film was published with original music.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "swarm-pepe-minted-signals",
+      "asked": "Watch real Swarm Pepe portraits in a short film.",
+      "built": "A 25-second film was published with original music.",
+      "media": {
+        "type": "video",
+        "src": "media/swarm-pepe-minted-signals.mp4",
+        "poster": "media/swarm-pepe-minted-signals.webp",
+        "original": "https://raw.githubusercontent.com/identity-md-launches/launch-449-make-25-second-video-swarm/b08f2bf597ca9fcd714e24c7ea443efb2a6ff13a/artifacts/video.mp4",
+        "bytes": 272599,
+        "note": "Full-duration compact display copy of the delivered film; original linked in technical details.",
+        "sha256": "2b0da14fd4c999ff71e63875041cc235c9e76476972445c73a9d89fa90e5b2ea",
+        "originalSha256": "42e19d27d714703028fe584def366993d958f8cf6fd6bb61d4e4cef82e66d902"
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-449-make-25-second-video-swarm",
+        "job": "https://explorer.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+      "readAt": "2026-09-29T14:22:00.648427Z"
+    },
+    {
+      "id": "schedule-89eef405-0d74-44dd-8012-0de841e28b09",
+      "name": "HIVE trading report",
+      "headline": "HIVE trading reports join the recurring jobs",
+      "kind": "heartbeat",
+      "at": "2026-09-29T08:21:18.555Z",
+      "idea": "A report reviews HIVE holders and trading every six hours.",
+      "today": "A new schedule was created with three paid reports.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "schedule-89eef405-0d74-44dd-8012-0de841e28b09",
+      "asked": "A report reviews HIVE holders and trading every six hours.",
+      "built": "A new schedule was created with three paid reports.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": null,
+        "launch": null,
+        "cid": null,
+        "schedule": "https://api.imd.fun/schedules/89eef405-0d74-44dd-8012-0de841e28b09"
+      },
+      "extra": {
+        "label": "HIVE trading report",
+        "cadence": "every six hours",
+        "runsRemaining": 3,
+        "runsBought": 3
+      },
+      "source": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z"
+    },
+    {
+      "id": "oracle-46af9bd5-ddbf-4d83-b6d5-f52b797acb36",
+      "name": "Wrapped Ether check · 08:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T08:01:20.403Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 08:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 08:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/3b8c991e-12b6-4754-a9b5-b4696c268c16",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/46af9bd5-ddbf-4d83-b6d5-f52b797acb36"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "job-0828583e-67db-4ee9-85b7-63976ffa2b37",
+      "name": "Super Saiyan showdown",
+      "headline": "Goku and Frieza meet in a short fan animation",
+      "kind": "video",
+      "at": "2026-09-29T07:42:12.617Z",
+      "idea": "Watch a short animated fight between Goku and Frieza.",
+      "today": "A 22-second fan animation was published.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "super-saiyan-showdown",
+      "asked": "Watch a short animated fight between Goku and Frieza.",
+      "built": "A 22-second fan animation was published.",
+      "media": {
+        "type": "video",
+        "src": "media/super-saiyan-showdown.mp4",
+        "poster": "media/super-saiyan-showdown.webp",
+        "original": "https://raw.githubusercontent.com/identity-md-launches/launch-448-3d-animated-video-goku/13b8a95da2c3487fbfc24c5191b86cfc90527601/artifacts/video.mp4",
+        "bytes": 363154,
+        "note": "Full-duration compact display copy of the delivered film; original linked in technical details.",
+        "sha256": "f49b21a305d0b44dcf8411beacbf73a8d73bae560d9b15d56e8a8cbc244c942f",
+        "originalSha256": "017c33a8ab5b6dee92a1c2b02f73736ef47bbaaa05a8d78f2da88fa80bfc97a0"
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-448-3d-animated-video-goku",
+        "job": "https://explorer.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {},
+      "source": "https://api.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+      "readAt": "2026-09-29T14:22:00.650972Z"
+    },
+    {
+      "id": "oracle-c493daa1-8ec1-4fa0-8658-c5cbc999a478",
+      "name": "Wrapped Ether check · 07:00",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T07:00:47.622Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 07:00 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 07:00 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/12408109-55d2-47b2-9a7f-94b00b199442",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/c493daa1-8ec1-4fa0-8658-c5cbc999a478"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "oracle-063a8cc3-2f02-42ec-ba3f-0e9206468e33",
+      "name": "Wrapped Ether check · 06:01",
+      "headline": "A wrapped Ether check publishes its answer",
+      "kind": "oracle",
+      "at": "2026-09-29T06:01:14.972Z",
+      "idea": "Does wrapped Ether still use 18 decimal places?",
+      "today": "The answer was published at 06:01 UTC.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "weth-decimal-check",
+      "asked": "Does wrapped Ether still use 18 decimal places?",
+      "built": "The answer was published at 06:01 UTC.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": null,
+        "job": "https://explorer.imd.fun/jobs/1e27f114-7ab3-47ff-808a-86960035ed92",
+        "launch": null,
+        "cid": null,
+        "oracle": "https://api.imd.fun/oracle/requests/063a8cc3-2f02-42ec-ba3f-0e9206468e33"
+      },
+      "extra": {
+        "question": "Does wrapped Ether still use 18 decimal places?",
+        "answer": "not exposed",
+        "agreed": null,
+        "panel": null,
+        "answerType": "bool",
+        "rawQuestion": "Does WETH9 (0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) on Ethereum mainnet return exactly 18 for decimals() at the window's last block?"
+      },
+      "source": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z"
+    },
+    {
+      "id": "site-9fc80ef5-bd5e-4230-96e4-d222ac342462",
+      "name": "Pacts website",
+      "headline": "Pacts opens its map to players",
+      "kind": "website",
+      "at": "2026-09-29T05:52:02.745Z",
+      "idea": "Players form guilds and compete for land on a shared map.",
+      "today": "The game gained a website after its test-network launch.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "pacts",
+      "asked": "Players form guilds and compete for land on a shared map.",
+      "built": "The game gained a website after its test-network launch.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/06dfbcec.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://pacts.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-447-workflow-frontend-stage-context",
+        "job": "https://explorer.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 709799,
+        "ensName": "pacts.site.identitymd.eth",
+        "signatures": [
+          "packPactData(uint256 partner, uint256 durationEpochs, uint256 ownBond, uint256 partnerBond)",
+          "unpackPactData(bytes32 data)",
+          "signPact(uint256 proposalA, uint256 proposalB)"
+        ]
+      },
+      "source": "https://api.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+      "readAt": "2026-09-29T14:22:00.651628Z"
+    },
+    {
+      "id": "launch-964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+      "name": "Pacts",
+      "headline": "Pacts launches its guild game on a test network",
+      "kind": "contracts",
+      "at": "2026-09-29T05:09:50.820Z",
+      "idea": "Players form guilds and compete for land on a shared map.",
+      "today": "The game contracts launched on the Sepolia test network.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "pacts",
+      "asked": "Players form guilds and compete for land on a shared map.",
+      "built": "The game contracts launched on the Sepolia test network.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": "https://pacts.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-444-workflow-contract-stage-context",
+        "job": "https://explorer.imd.fun/jobs/3fa23364-90be-48d5-896c-31045d0c35bd",
+        "launch": "https://explorer.imd.fun/launches/964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 444,
+        "status": "live",
+        "chainId": 11155111,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "Guilds",
+            "address": "0x8cf40aadb31bad7b441f018d74c61191b96a2e42",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x7f88ad727adeb8fc70fd198f2d2319349846818c",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0x174ce0bdbd6af7e713225ced17c873203ba829a1",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          },
+          {
+            "role": "other",
+            "name": "Realm",
+            "address": "0x206bbcb9b91793decd1819e366334ab6dbbdc990",
+            "txHash": "0xc2e0715b963f566f9d21cf819c6505d567a93056a42e54449fd07d67a20f1512",
+            "blockNumber": 11805514
+          }
+        ],
+        "signatures": [
+          "packPactData(uint256 partner, uint256 durationEpochs, uint256 ownBond, uint256 partnerBond)",
+          "unpackPactData(bytes32 data)",
+          "signPact(uint256 proposalA, uint256 proposalB)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "site-bf485e05-4933-4c23-a4c0-d4719dc2b085",
+      "name": "IMD Card Pay website",
+      "headline": "A test payment app opens its card counter",
+      "kind": "website",
+      "at": "2026-09-29T04:01:38.342Z",
+      "idea": "Try a spend-card payment flow using test-network IMD.",
+      "today": "A new website shows pack choices and payment status.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "imd-card-pay",
+      "asked": "Try a spend-card payment flow using test-network IMD.",
+      "built": "A new website shows pack choices and payment status.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/501472d7.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://imd.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-446-workflow-frontend-stage-context",
+        "job": "https://explorer.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 644863,
+        "ensName": "imd.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+      "readAt": "2026-09-29T14:22:00.656349Z"
+    },
+    {
+      "id": "launch-a36cb67d-208f-4149-a31a-4a55cac4833c",
+      "name": "IMD Card Pay",
+      "headline": "A spend-card payment contract goes live for testing",
+      "kind": "contracts",
+      "at": "2026-09-29T03:32:28.443Z",
+      "idea": "Accept test-network IMD payments for spend-card packs.",
+      "today": "The payment contract launched on the Sepolia test network.",
+      "status": {
+        "state": "live",
+        "reason": ""
+      },
+      "projectSlug": "imd-card-pay",
+      "asked": "Accept test-network IMD payments for spend-card packs.",
+      "built": "The payment contract launched on the Sepolia test network.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": "https://imd.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-445-workflow-contract-stage-context",
+        "job": "https://explorer.imd.fun/jobs/306a0adc-ced5-4a74-b110-4ee52187546b",
+        "launch": "https://explorer.imd.fun/launches/a36cb67d-208f-4149-a31a-4a55cac4833c",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 445,
+        "status": "live",
+        "chainId": 11155111,
+        "artifacts": [
+          {
+            "role": "other",
+            "name": "ImdCardPayment",
+            "address": "0x7ffdd2022de16ff12487904e60e9e8f0c4892721",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "token",
+            "name": "LaunchToken",
+            "address": "0x10a7117e2f6d89afe15fa8adbc965d7e1c78613f",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          },
+          {
+            "role": "distributor",
+            "name": "MerkleDistributor",
+            "address": "0xd78a0bc1eaf45eb7b44332c314318af2780f2f87",
+            "txHash": "0x17804b249f2d392b8566a154e14fef69f534c716686395a5575f3903d500d0bc",
+            "blockNumber": 11805027
+          }
+        ],
+        "signatures": [
+          "quote(uint8 packs)",
+          "pay(uint8 packs, bytes32 orderId, uint256 deadline)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "launch-cf273456-28ee-4198-a2fa-a89fa08a5225",
+      "name": "SeatLease",
+      "headline": "SeatLease launch stops over a reward-draining risk",
+      "kind": "contracts",
+      "at": "2026-09-29T02:24:30.979Z",
+      "idea": "Seat owners could lend their seats and share work rewards.",
+      "today": "A launch was stopped after a review found a reward-draining risk.",
+      "status": {
+        "state": "parked",
+        "reason": "a review found that seat owners could drain rewards"
+      },
+      "projectSlug": "seatlease",
+      "asked": "Seat owners could lend their seats and share work rewards.",
+      "built": "A launch was stopped after a review found a reward-draining risk.",
+      "media": {
+        "type": "none",
+        "src": null,
+        "poster": null
+      },
+      "links": {
+        "site": null,
+        "repo": "https://github.com/identity-md-launches/launch-440-build-seatlease-v1-one",
+        "job": "https://explorer.imd.fun/jobs/23eb7fc4-5ed9-4560-9018-f4bf2abd75c4",
+        "launch": "https://explorer.imd.fun/launches/cf273456-28ee-4198-a2fa-a89fa08a5225",
+        "cid": null
+      },
+      "extra": {
+        "launchNumber": 440,
+        "status": "parked",
+        "chainId": 11155111,
+        "artifacts": [],
+        "signatures": [
+          "deposit( uint256 tokenId, uint16 ownerBps, Mode mode, address allowedOperator, uint256 bondAmount, address oracleSigner, bytes32 questionHash, string calldata listing )",
+          "setTerms( uint256 tokenId, uint16 ownerBps, Mode mode, address allowedOperator, uint256 bondAmount, address oracleSigner, bytes32 questionHash, string calldata listing )",
+          "setRewardTokens(uint256 tokenId, address[] calldata tokens)"
+        ]
+      },
+      "source": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z"
+    },
+    {
+      "id": "site-69f5c480-c9cb-4d89-b666-2b14993aab29",
+      "name": "Snowmoon reader",
+      "headline": "Snowmoon becomes a chapter-by-chapter reading room",
+      "kind": "website",
+      "at": "2026-09-29T02:19:41.604Z",
+      "idea": "Read Vitalik Buterin’s story one chapter at a time.",
+      "today": "A new reader presents all 32 chapters.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "snowmoon",
+      "asked": "Read Vitalik Buterin’s story one chapter at a time.",
+      "built": "A new reader presents all 32 chapters.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/c3834e7b.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-c3834e7b.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-443-build-polished-interactive-explainer",
+        "job": "https://explorer.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 1708296,
+        "ensName": "site-c3834e7b.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+      "readAt": "2026-09-29T14:22:00.881137Z"
+    },
+    {
+      "id": "site-791b1d1d-e2ba-4285-9f7e-89a5857b3bfc",
+      "name": "Snowmoon chapter 30",
+      "headline": "One Snowmoon chapter becomes an interactive explainer",
+      "kind": "website",
+      "at": "2026-09-29T01:24:02.108Z",
+      "idea": "Explore the characters and events of one Snowmoon chapter.",
+      "today": "A new explainer adds a timeline and pattern experiment.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "snowmoon-chapter-30",
+      "asked": "Explore the characters and events of one Snowmoon chapter.",
+      "built": "A new explainer adds a timeline and pattern experiment.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/6b3bcbf5.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-6b3bcbf5.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-442-build-website-tells-you",
+        "job": "https://explorer.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 300648,
+        "ensName": "site-6b3bcbf5.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+      "readAt": "2026-09-29T14:22:00.881565Z"
+    },
+    {
+      "id": "site-82fa2795-5a9f-48a2-b50a-f77a032cfba0",
+      "name": "Built by the Swarm",
+      "headline": "The swarm gets its first daily newspaper",
+      "kind": "website",
+      "at": "2026-09-29T00:39:40.801Z",
+      "idea": "Catch up on the network’s public work in one place.",
+      "today": "The first daily edition was published.",
+      "status": {
+        "state": "published",
+        "reason": ""
+      },
+      "projectSlug": "what-the-swarm-did",
+      "asked": "Catch up on the network’s public work in one place.",
+      "built": "The first daily edition was published.",
+      "media": {
+        "type": "screenshot",
+        "src": "media/f8bd2d48.webp",
+        "poster": null,
+        "note": "Rendered from the delivered production export; see validation.md."
+      },
+      "links": {
+        "site": "https://site-f8bd2d48.site.identitymd.eth.limo",
+        "repo": "https://github.com/identity-md-launches/launch-441-build-built-swarm-static",
+        "job": "https://explorer.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+        "launch": null,
+        "cid": null
+      },
+      "extra": {
+        "bytes": 1156234,
+        "ensName": "site-f8bd2d48.site.identitymd.eth"
+      },
+      "source": "https://api.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+      "readAt": "2026-09-29T14:22:00.883705Z"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://api.imd.fun/health",
+      "readAt": "2026-09-29T14:21:07.275333Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/launches?limit=500",
+      "readAt": "2026-09-29T14:21:07.276281Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/launch/policies",
+      "readAt": "2026-09-29T14:21:07.276769Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs?limit=500",
+      "readAt": "2026-09-29T14:21:07.277616Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests?limit=500",
+      "readAt": "2026-09-29T14:21:07.278842Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/schedules",
+      "readAt": "2026-09-29T14:21:07.279944Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/seats/records?limit=500",
+      "readAt": "2026-09-29T14:21:07.280855Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/services",
+      "readAt": "2026-09-29T14:21:07.283116Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/sites?limit=500",
+      "readAt": "2026-09-29T14:21:07.283732Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/skills",
+      "readAt": "2026-09-29T14:21:07.286272Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/version",
+      "readAt": "2026-09-29T14:21:07.289273Z",
+      "status": 200
+    },
+    {
+      "url": "https://explorer.imd.fun/api/activity",
+      "readAt": "2026-09-29T14:21:07.291651Z",
+      "status": 200
+    },
+    {
+      "url": "https://imd.fun/docs/",
+      "readAt": "2026-09-29T14:21:07.510536Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.github.com/repos/identity-md/worker/releases",
+      "readAt": "2026-09-29T14:21:07.515182Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/4fb13d54-1e2a-4ed2-bbbe-855d63924587",
+      "readAt": "2026-09-29T14:22:00.642531Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/198ebf69-e885-4df9-b886-7570a2f78d6d",
+      "readAt": "2026-09-29T14:22:00.643952Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/ce55b466-ef40-4cf1-9130-fb5b5ec2fd6c",
+      "readAt": "2026-09-29T14:22:00.644766Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/14548a28-b7cb-4fa2-b997-688fa23d0bad",
+      "readAt": "2026-09-29T14:22:00.645433Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/2a341a21-e9c9-47b3-a685-24efc1944b7d",
+      "readAt": "2026-09-29T14:22:00.646585Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/633556f2-e697-4ad9-8094-1cbfee5c41f7",
+      "readAt": "2026-09-29T14:22:00.647597Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/316aa8e0-71fb-4b4c-b582-7327c2729f0c",
+      "readAt": "2026-09-29T14:22:00.648427Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/0828583e-67db-4ee9-85b7-63976ffa2b37",
+      "readAt": "2026-09-29T14:22:00.650972Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/06dfbcec-4a2a-4dea-87e3-d15ab594fb9c",
+      "readAt": "2026-09-29T14:22:00.651628Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/501472d7-f149-455e-8ee0-6df03c506480",
+      "readAt": "2026-09-29T14:22:00.656349Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/5b28dca6-0526-4ef7-b0f5-f9024a39a485",
+      "readAt": "2026-09-29T14:22:00.873391Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/306a0adc-ced5-4a74-b110-4ee52187546b",
+      "readAt": "2026-09-29T14:22:00.878013Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/3fa23364-90be-48d5-896c-31045d0c35bd",
+      "readAt": "2026-09-29T14:22:00.878701Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/c3834e7b-5f6f-49a7-ae4c-14a0f2c2ca59",
+      "readAt": "2026-09-29T14:22:00.881137Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/6b3bcbf5-9c02-4208-9eb5-3cb078f5c396",
+      "readAt": "2026-09-29T14:22:00.881565Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/f8bd2d48-07da-46f9-8b64-6b329b1c3a4e",
+      "readAt": "2026-09-29T14:22:00.883705Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/jobs/23eb7fc4-5ed9-4560-9018-f4bf2abd75c4",
+      "readAt": "2026-09-29T14:22:00.884144Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/launches/a36cb67d-208f-4149-a31a-4a55cac4833c",
+      "readAt": "2026-09-29T14:22:00.885359Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/launches/964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+      "readAt": "2026-09-29T14:22:00.892554Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/launches/cf273456-28ee-4198-a2fa-a89fa08a5225",
+      "readAt": "2026-09-29T14:22:00.893150Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/dbba353a-22bf-4a12-837f-7f48c2d5d9bd",
+      "readAt": "2026-09-29T14:22:01.089990Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/92ce7a6f-a1be-40de-917b-4cef5a748479",
+      "readAt": "2026-09-29T14:22:01.090448Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/8048611b-e3ad-46dc-a841-c4c0e1885acc",
+      "readAt": "2026-09-29T14:22:01.094497Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "readAt": "2026-09-29T14:22:01.100949Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/a69c7dc0-cac4-4409-9118-050c8d7621d7",
+      "readAt": "2026-09-29T14:22:01.108638Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/f9780582-cc3d-4a70-bad1-6ab9b38286b1",
+      "readAt": "2026-09-29T14:22:01.112145Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/b6a2f54f-aaf1-4fda-b794-a6d919d8a02b",
+      "readAt": "2026-09-29T14:22:01.116724Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/46af9bd5-ddbf-4d83-b6d5-f52b797acb36",
+      "readAt": "2026-09-29T14:22:04.092631Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/c493daa1-8ec1-4fa0-8658-c5cbc999a478",
+      "readAt": "2026-09-29T14:22:04.102668Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/063a8cc3-2f02-42ec-ba3f-0e9206468e33",
+      "readAt": "2026-09-29T14:22:04.106515Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/seats/records",
+      "readAt": "2026-09-29T14:22:04.301295Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/launches/a36cb67d-208f-4149-a31a-4a55cac4833c",
+      "readAt": "2026-09-29T14:22:55.042755Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/launches/964a1cdf-8b2b-46b7-a327-6e5ef3e7625b",
+      "readAt": "2026-09-29T14:22:58.282360Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/launches/cf273456-28ee-4198-a2fa-a89fa08a5225",
+      "readAt": "2026-09-29T14:23:01.508366Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/dbba353a-22bf-4a12-837f-7f48c2d5d9bd",
+      "readAt": "2026-09-29T14:23:01.726728Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/92ce7a6f-a1be-40de-917b-4cef5a748479",
+      "readAt": "2026-09-29T14:23:04.948342Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/8048611b-e3ad-46dc-a841-c4c0e1885acc",
+      "readAt": "2026-09-29T14:23:08.173962Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/4c4c29c6-76ba-4f78-9b53-4385fa3aaf01",
+      "readAt": "2026-09-29T14:23:11.389605Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/a69c7dc0-cac4-4409-9118-050c8d7621d7",
+      "readAt": "2026-09-29T14:23:14.613954Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/f9780582-cc3d-4a70-bad1-6ab9b38286b1",
+      "readAt": "2026-09-29T14:23:17.830458Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/b6a2f54f-aaf1-4fda-b794-a6d919d8a02b",
+      "readAt": "2026-09-29T14:23:21.044887Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/46af9bd5-ddbf-4d83-b6d5-f52b797acb36",
+      "readAt": "2026-09-29T14:23:24.254106Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/c493daa1-8ec1-4fa0-8658-c5cbc999a478",
+      "readAt": "2026-09-29T14:23:27.482371Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/063a8cc3-2f02-42ec-ba3f-0e9206468e33",
+      "readAt": "2026-09-29T14:23:30.700032Z",
+      "status": 503
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-443-build-polished-interactive-explainer/6b741790745643bc778e5ba24242562d6d5317db/README.md",
+      "readAt": "2026-09-29T14:23:33.927795Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-452-build-one-page-interactive-website/9cf118704f963c7a07c348adc0f08d84bd71b648/README.md",
+      "readAt": "2026-09-29T14:23:34.438710Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-445-workflow-contract-stage-context/1e0ac5e9cb8a1f5a4b9e7007295827ee6d66e348/README.md",
+      "readAt": "2026-09-29T14:23:34.767164Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-442-build-website-tells-you/bab18b744eaf32ba0bde9f7a731d11102c057d6a/README.md",
+      "readAt": "2026-09-29T14:23:35.108577Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-447-workflow-frontend-stage-context/5d49240174bb20a0aff40689790b808f3017214c/README.md",
+      "readAt": "2026-09-29T14:23:35.452975Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-446-workflow-frontend-stage-context/4c32e93e95eb687346edc0ff533d8664f52af60d/README.md",
+      "readAt": "2026-09-29T14:23:35.786847Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-444-workflow-contract-stage-context/eeee3c75fa33e038c1605d0b1a79ad1272434c78/README.md",
+      "readAt": "2026-09-29T14:23:36.144812Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-441-build-built-swarm-static/dd12e018831be1d7ab2d236330bfeeb443c1d90c/README.md",
+      "readAt": "2026-09-29T14:23:36.502456Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-449-make-25-second-video-swarm/b08f2bf597ca9fcd714e24c7ea443efb2a6ff13a/README.md",
+      "readAt": "2026-09-29T14:23:36.888869Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-440-build-seatlease-v1-one/51ff8e62fe5503d5b54f4f8b23bda66c9a61bb5e/README.md",
+      "readAt": "2026-09-29T14:23:37.234050Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-448-3d-animated-video-goku/13b8a95da2c3487fbfc24c5191b86cfc90527601/README.md",
+      "readAt": "2026-09-29T14:23:37.604599Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-451-focus-swarm-pepe-contract-s/17246edd12f87190ce9b76e92a2395d3b8f79663/README.md",
+      "readAt": "2026-09-29T14:23:37.979207Z",
+      "status": 200
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/dbba353a-22bf-4a12-837f-7f48c2d5d9bd?view=public",
+      "readAt": "2026-09-29T14:23:23.352013Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/92ce7a6f-a1be-40de-917b-4cef5a748479?view=public",
+      "readAt": "2026-09-29T14:23:23.352924Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/8048611b-e3ad-46dc-a841-c4c0e1885acc?view=public",
+      "readAt": "2026-09-29T14:23:23.353603Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/4c4c29c6-76ba-4f78-9b53-4385fa3aaf01?view=public",
+      "readAt": "2026-09-29T14:23:23.354130Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/a69c7dc0-cac4-4409-9118-050c8d7621d7?view=public",
+      "readAt": "2026-09-29T14:23:23.354708Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/f9780582-cc3d-4a70-bad1-6ab9b38286b1?view=public",
+      "readAt": "2026-09-29T14:23:26.577052Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/b6a2f54f-aaf1-4fda-b794-a6d919d8a02b?view=public",
+      "readAt": "2026-09-29T14:23:26.585287Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/46af9bd5-ddbf-4d83-b6d5-f52b797acb36?view=public",
+      "readAt": "2026-09-29T14:23:26.594842Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/c493daa1-8ec1-4fa0-8658-c5cbc999a478?view=public",
+      "readAt": "2026-09-29T14:23:26.595398Z",
+      "status": 503
+    },
+    {
+      "url": "https://api.imd.fun/oracle/requests/063a8cc3-2f02-42ec-ba3f-0e9206468e33?view=public",
+      "readAt": "2026-09-29T14:23:26.596842Z",
+      "status": 503
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-445-workflow-contract-stage-context/1e0ac5e9cb8a1f5a4b9e7007295827ee6d66e348/src/ImdCardPayment.sol",
+      "readAt": "2026-09-29T14:27:28.213881Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-444-workflow-contract-stage-context/eeee3c75fa33e038c1605d0b1a79ad1272434c78/launch.json",
+      "readAt": "2026-09-29T14:27:28.534801Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-445-workflow-contract-stage-context/1e0ac5e9cb8a1f5a4b9e7007295827ee6d66e348/launch.json",
+      "readAt": "2026-09-29T14:27:28.837175Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-440-build-seatlease-v1-one/51ff8e62fe5503d5b54f4f8b23bda66c9a61bb5e/src/SeatLease.sol",
+      "readAt": "2026-09-29T14:27:29.158701Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-449-make-25-second-video-swarm/b08f2bf597ca9fcd714e24c7ea443efb2a6ff13a/artifacts/video.mp4",
+      "readAt": "2026-09-29T14:26:46.038611Z",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/identity-md-launches/launch-448-3d-animated-video-goku/13b8a95da2c3487fbfc24c5191b86cfc90527601/artifacts/video.mp4",
+      "readAt": "2026-09-29T14:26:46.073611Z",
+      "status": 200
+    }
+  ],
+  "coverage": {
+    "lists": "The newest 500 jobs and oracle records extend before midnight. All returned launches and the newest 100 sites were read.",
+    "limits": [
+      "Ten current oracle detail reads returned 503, so answers and agreement counts are not exposed.",
+      "Two current launch detail reads returned 503; list and job records support their live status.",
+      "Numbers are public snapshots, not independent certifications."
+    ],
+    "windowNote": "last24h field names are retained for v1 compatibility; issue 2 counts the partial UTC day."
+  }
+}
